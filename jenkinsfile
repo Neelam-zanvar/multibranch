@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('try') {
             steps {
-                echo 'multiple jenkinsfile '
+                echo 'multiple jenkinsfile'
+                sh 'whoami'
             }
         }
     }
